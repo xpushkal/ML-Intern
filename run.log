@@ -1,22 +1,22 @@
-2026-03-28T16:55:52 | INFO     | ============================================================
-2026-03-28T16:55:52 | INFO     | Job started
-2026-03-28T16:55:52 | INFO     | Input   : data.csv
-2026-03-28T16:55:52 | INFO     | Config  : config.yaml
-2026-03-28T16:55:52 | INFO     | Output  : metrics.json
-2026-03-28T16:55:52 | INFO     | Log file: run.log
-2026-03-28T16:55:52 | INFO     | ============================================================
-2026-03-28T16:55:52 | INFO     | Loading config from: config.yaml
-2026-03-28T16:55:52 | INFO     | Config validated — version=v1 | seed=42 | window=5
-2026-03-28T16:55:52 | DEBUG    | NumPy random seed set to 42
-2026-03-28T16:55:52 | INFO     | Loading dataset from: data.csv
-2026-03-28T16:55:52 | INFO     | Dataset loaded: 10000 rows, 7 columns
-2026-03-28T16:55:52 | DEBUG    | Columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
-2026-03-28T16:55:52 | DEBUG    | close  min=41939.28  max=50949.16  mean=46028.68
-2026-03-28T16:55:52 | INFO     | Computing rolling mean (window=5) ...
-2026-03-28T16:55:52 | INFO     | Rolling mean computed — warm-up rows (NaN): 4, valid rows: 9996
-2026-03-28T16:55:52 | INFO     | Generating binary signals ...
-2026-03-28T16:55:52 | INFO     | Signal distribution — signal=1: 4989 (49.89%)  signal=0: 5011 (50.11%)
-2026-03-28T16:55:52 | INFO     | Metrics written to: metrics.json
-2026-03-28T16:55:52 | INFO     | Summary — rows_processed=10000 | signal_rate=0.4989 | latency_ms=68.49
-2026-03-28T16:55:52 | INFO     | Job completed successfully
-2026-03-28T16:55:52 | INFO     | ============================================================
+2026-03-28T23:10:43 | INFO     | ============================================================
+2026-03-28T23:10:43 | INFO     | Job started
+2026-03-28T23:10:43 | INFO     | Input   : data.csv
+2026-03-28T23:10:43 | INFO     | Config  : config.yaml
+2026-03-28T23:10:43 | INFO     | Output  : metrics.json
+2026-03-28T23:10:43 | INFO     | Log file: run.log
+2026-03-28T23:10:43 | INFO     | ============================================================
+2026-03-28T23:10:43 | INFO     | Loading config from: config.yaml
+2026-03-28T23:10:43 | INFO     | Config validated — version=v1 | seed=42 | window=5
+2026-03-28T23:10:43 | DEBUG    | NumPy random seed set to 42
+2026-03-28T23:10:43 | INFO     | Loading dataset from: data.csv
+2026-03-28T23:10:43 | INFO     | Dataset loaded: 10000 rows, 7 columns
+2026-03-28T23:10:43 | DEBUG    | Columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-03-28T23:10:43 | DEBUG    | close  min=41939.28  max=50949.16  mean=46028.68
+2026-03-28T23:10:43 | INFO     | Computing rolling mean (window=5) ...
+2026-03-28T23:10:43 | INFO     | Rolling mean computed — warm-up rows (NaN): 4, valid rows: 9996
+2026-03-28T23:10:43 | INFO     | Generating binary signals ...
+2026-03-28T23:10:43 | INFO     | Signal distribution — signal=1: 4989 (49.89%)  signal=0: 5011 (50.11%)
+2026-03-28T23:10:43 | INFO     | Metrics written to: metrics.json
+2026-03-28T23:10:43 | INFO     | Summary — rows_processed=10000 | signal_rate=0.4989 | latency_ms=22.02
+2026-03-28T23:10:43 | INFO     | Job completed successfully
+2026-03-28T23:10:43 | INFO     | ============================================================
